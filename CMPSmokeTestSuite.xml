@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CMPSmokeTestSuite">
+	<listeners>
+		<listener class-name="listeners.ExtentReporterNG" />
+	</listeners>
+	<test name="SmokeTest">
+		<classes>
+			<class name="testPages.DailyBulkuploadTestUsingCPS" />
+			<class name="testPages.TransferandSharingaProjectTest" />
+		</classes>
+	</test> <!-- SmokeTest -->
+</suite> <!-- CMPSmokeTestSuite -->
