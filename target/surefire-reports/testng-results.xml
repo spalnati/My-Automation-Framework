@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="149151" started-at="2017-08-21T13:51:57Z" finished-at="2017-08-21T13:54:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="149151" started-at="2017-08-21T13:51:57Z" finished-at="2017-08-21T13:54:26Z">
+      <class name="testPages.DailyBulkuploadTestUsingCPS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPages.DailyBulkuploadTestUsingCPS@735f7ae5]" name="setup" is-config="true" duration-ms="3817" started-at="2017-08-21T14:51:57Z" finished-at="2017-08-21T14:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DailyBulkuploadsTestUsingCPS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testPages.DailyBulkuploadTestUsingCPS@735f7ae5]" name="DailyBulkuploadsTestUsingCPS" duration-ms="144483" started-at="2017-08-21T14:52:01Z" data-provider="CPSAuthenticationProd" finished-at="2017-08-21T14:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spalnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subhasini123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Customer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DailyBulkuploadsTestUsingCPS -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testPages.DailyBulkuploadTestUsingCPS@735f7ae5]" name="closeBrowser" is-config="true" duration-ms="837" started-at="2017-08-21T14:54:25Z" finished-at="2017-08-21T14:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testPages.DailyBulkuploadTestUsingCPS -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
